@@ -7,3 +7,6 @@ out/
 
 # Maven
 target/
+
+# Other
+FirstCourse/FirstSemester/other/logs.txt
