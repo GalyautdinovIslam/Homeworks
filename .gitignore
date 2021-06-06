@@ -1,0 +1,9 @@
+# IntelliJ
+out/
+.idea/
+
+# Java
+.class
+
+# Maven
+target/
