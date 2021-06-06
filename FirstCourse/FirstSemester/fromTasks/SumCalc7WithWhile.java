@@ -1,4 +1,4 @@
-package FirstSemester;
+package FirstSemester.fromTasks;
 
 public class SumCalc7WithWhile {
     public static void main(String[] args) {
