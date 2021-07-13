@@ -9,4 +9,4 @@ out/
 target/
 
 # Other
-firstCourse/firstSemester/other/logs.txt
+src/main/resources/firstCourse/firstSemester/other/Notes/logs.txt
