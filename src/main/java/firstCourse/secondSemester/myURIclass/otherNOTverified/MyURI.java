@@ -1,4 +1,4 @@
-package firstCourse.secondSemester.MyURIclass.otherNOTverified;
+package firstCourse.secondSemester.myURIclass.otherNOTverified;
 
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;

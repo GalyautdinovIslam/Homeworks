@@ -1,4 +1,4 @@
-package firstCourse.secondSemester.MyURIclass;
+package firstCourse.secondSemester.myURIclass;
 
 import java.net.URISyntaxException;
 import java.util.regex.Matcher;

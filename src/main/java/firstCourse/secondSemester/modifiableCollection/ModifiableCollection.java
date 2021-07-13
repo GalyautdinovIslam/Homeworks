@@ -1,4 +1,4 @@
-package firstCourse.secondSemester.ModifiableCollection;
+package firstCourse.secondSemester.modifiableCollection;
 
 import java.util.AbstractCollection;
 import java.util.Collection;

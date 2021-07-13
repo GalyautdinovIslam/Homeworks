@@ -1,6 +1,6 @@
 package firstCourseTest.secondSemesterTest.MySortedSetTest;
 
-import firstCourse.secondSemester.MySortedSet.MySortedSet;
+import firstCourse.secondSemester.mySortedSet.MySortedSet;
 import org.junit.Test;
 
 import java.util.*;

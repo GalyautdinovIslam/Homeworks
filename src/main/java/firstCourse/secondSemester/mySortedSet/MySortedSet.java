@@ -1,4 +1,4 @@
-package firstCourse.secondSemester.MySortedSet;
+package firstCourse.secondSemester.mySortedSet;
 
 import java.util.*;
 
