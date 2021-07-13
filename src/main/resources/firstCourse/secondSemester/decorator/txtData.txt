@@ -1,0 +1,5 @@
+Table: 7 pieces, 7999.99 cu each.
+Knife: 38 pieces, 599.99 cu each.
+Sword: 2 pieces, 3599.9 cu each.
+Honey: 164 pieces, 350.0 cu each.
+Glass: 1053 pieces, 149.99 cu each.
