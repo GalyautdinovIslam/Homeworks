@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="363.0" prefWidth="773.0" xmlns="http://javafx.com/javafx/8.0.261" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPageController">
+   <children>
+      <TextField fx:id="TextFieldInput" layoutX="174.0" layoutY="14.0" prefHeight="41.0" prefWidth="511.0" promptText="Enter title of the city" />
+      <Button fx:id="ButtonSearch" layoutX="694.0" layoutY="14.0" mnemonicParsing="false" onAction="#onSearch" prefHeight="41.0" prefWidth="65.0" text="Search" />
+      <Button fx:id="ButtonNext" layoutX="99.0" layoutY="14.0" mnemonicParsing="false" onAction="#onNext" prefHeight="41.0" prefWidth="65.0" text="Next" />
+      <Button fx:id="ButtonPrevious" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onPrevious" prefHeight="41.0" prefWidth="77.0" text="Previous" />
+      <AnchorPane layoutX="14.0" layoutY="128.0" prefHeight="148.0" prefWidth="243.0" style="-fx-background-color: white;">
+         <children>
+            <Text fx:id="TExtWLeft" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weather:" wrappingWidth="242.99999794363976">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="TextDateLeft" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date" textAlignment="CENTER" wrappingWidth="242.99999794363976">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="TextMLeft" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max/Min:" wrappingWidth="242.99999794363976">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="TextTLeft" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temp:" wrappingWidth="242.99999794363976">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text fx:id="TextCity" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City" textAlignment="CENTER" wrappingWidth="773.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="ButtonRight" layoutX="444.0" layoutY="294.0" mnemonicParsing="false" onAction="#onRight" prefHeight="41.0" prefWidth="144.0" text="&gt;" />
+      <Button fx:id="ButtonLeft" layoutX="185.0" layoutY="294.0" mnemonicParsing="false" onAction="#onLeft" prefHeight="41.0" prefWidth="144.0" text="&lt;" />
+      <AnchorPane layoutX="265.0" layoutY="128.0" prefHeight="148.0" prefWidth="243.0" style="-fx-background-color: white;">
+         <children>
+            <Text fx:id="TextWCenter" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weather:" wrappingWidth="242.99999794363976">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="TextDateCenter" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date" textAlignment="CENTER" wrappingWidth="242.99999794363976">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="TextMCenter" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max/Min:" wrappingWidth="242.99999794363976">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="TextTCenter" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temp:" wrappingWidth="242.99999794363976">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="516.0" layoutY="128.0" prefHeight="148.0" prefWidth="243.0" style="-fx-background-color: white;">
+         <children>
+            <Text fx:id="TextWRight" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weather:" wrappingWidth="242.99999794363976">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="TextDateRight" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date" textAlignment="CENTER" wrappingWidth="242.99999794363976">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="TextMRight" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max/Min:" wrappingWidth="242.99999794363976">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="TextTRight" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temp:" wrappingWidth="242.99999794363976">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
